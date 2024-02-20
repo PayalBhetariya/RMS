@@ -1,0 +1,16 @@
+step 1 -->> 
+
+initialize redux -> done
+
+
+bookings
+
+
+3 steps :: 
+
+1) login 
+    user based authentication, -> done
+2) user login -> booking
+   if user -> show booking form, below that show his bookings
+3) admin login -> data table 
+   show all users booking, latest will come first
