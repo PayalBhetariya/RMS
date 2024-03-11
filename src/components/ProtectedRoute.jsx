@@ -16,8 +16,7 @@ function ProtectedRoute(props) {
     if (loginData.type === "admin" && location === "/user") {
       navigate("/admin");
     }
-  });
-  // , [loginData, location]
+  }, [loginData, location]);
 
   return props.children;
 }
